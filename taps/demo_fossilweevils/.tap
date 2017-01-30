@@ -1,0 +1,17 @@
+True
+True
+mnpw
+
+taxonomy FloraChina 2012
+(OakGenus ChineseOakSpecies1 ChineseOakSpecies2)
+(ChineseOakSpecies2)
+(ChineseOakSpecies1)
+
+taxonomy FloraMexico 2008
+(OakGenus MexicanOakSpecies2 MexicanOakSpecies1)
+(MexicanOakSpecies1)
+(MexicanOakSpecies2)
+
+articulation
+[FloraChina.ChineseOakSpecies1 is_included_in FloraMexico.MexicanOakSpecies1]
+[FloraChina.ChineseOakSpecies2 equals FloraMexico.MexicanOakSpecies2]
